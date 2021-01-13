@@ -8,7 +8,9 @@ declare global {
   }
 }
 
-window.ApexCharts = ApexCharts;
+if(window) {
+  window.ApexCharts = ApexCharts;
+}
 
 const declerations = [ChartComponent];
 
