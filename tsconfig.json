@@ -24,7 +24,11 @@
       ],
       "ng-apexcharts/*": [
         "dist/ng-apexcharts/*"
-      ]
+      ],
+      "ngx-apex-chart": [
+        "dist/ngx-apex-chart/ngx-apex-chart",
+        "dist/ngx-apex-chart"
+      ],
     }
   }
 }
